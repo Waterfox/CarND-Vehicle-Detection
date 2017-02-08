@@ -15,9 +15,10 @@ The goal of the P5 vehicle detection project is to detect and track vehicles in 
 For a good part of this project, I only had success using the RGB color space for classification due to a very small programming error. This lead to many false positives during classification and the resulting strict thresholding on initial attempts at using heatmaps to track cars in the video.
 
 #### Files
-**P5_vehicle_detection_and_tracking-0.6** Implements project 5
 
-**P5_vehicle_detection_and_tracking-0.7** Implements project 4 (upper part of notebook) and project 5 (lower part of notebook)
+[P5_vehicle_detection_and_tracking-0.6.ipynb](./P5_vehicle_detection_and_tracking-0.6.ipynb) Implements project 5
+
+[P5_vehicle_detection_and_tracking-0.7.ipynb](./P5_vehicle_detection_and_tracking-0.7.ipynb) Implements project 4 (upper part of notebook) and project 5 (lower part of notebook)
 
 ## 1 Feature Extraction
 Through most of the attempts at solving this project combinations of spatial features, color histogram features and HOG features were used for classification. Changing parameters generally resulted in small changes in the validation accuracy and were often difficult to quantify. Validation accuracy was approximately 91% without HOG features and ranged from 97 to 97.5% with HOG features in RGB color space. The critical effect of changes to the features on false positves was not measurable until applied to the video.
