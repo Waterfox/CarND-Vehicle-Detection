@@ -1,9 +1,5 @@
 
-/_archive/
-/backup_movies/
-/examples/
-/train_images/vehicles/vehicles/GTI_Far/
-/train_images/vehicles/vehicles/GTI_Left/
-/train_images/vehicles/vehicles/GTI_Right/
-/train_images/vehicles/vehicles/KITTI_extracted/
-/train_images/non-vehicles/non-vehicles/GTI/
+_archive/
+backup_movies/
+examples/
+train_images/vehicles/vehicles/
