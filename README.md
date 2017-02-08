@@ -73,34 +73,34 @@ The slide_window function from the course material was used to generate field se
 Parameters for the windows were varied throughout the project but ultimately the four following fieldsets given below were used.
 
 * Windows1:
-```y_start_stop1 = [380, 580]
+y_start_stop1 = [380, 580]
 x_start_stop1 = [200,1200]
 win_size1 = (96,96) xy_overlap=(0.65, 0.65)
-```
+
 
 ![win1](./output_images/windows1.png )
 
 * Windows2:
-```y_start_stop2 = [400,592]
+y_start_stop2 = [400,592]
 x_start_stop2 = [0,1280]
 win_size2 = (140,140) xy_overlap=(0.55, 0.55)
-```
+
 
 ![win2](./output_images/windows2.png )
 
 * Windows3:
-```y_start_stop3 = [410,680]
+y_start_stop3 = [410,680]
 x_start_stop3 = [0,1280]
 win_size3 = (192,192) (0.55, 0.55)
-```
+
 
 ![win3](./output_images/windows3.png )
 
 * Windows 4:
-```y_start_stop4 = [380,508]
+y_start_stop4 = [380,508]
 x_start_stop4 = [300,1200]
 win_size4 = (64,64) xy_overlap=(0.6, 0.6)
-```
+
 (extra smaller windows)
 
 ![win4](./output_images/windows4.png )
