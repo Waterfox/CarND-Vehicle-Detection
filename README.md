@@ -54,11 +54,11 @@ The `sklearn.svm LinearSVC` was used based on recommendations in the course and 
 
 Two, 65MB, 8800 image traning sets were used, linked from the course website. One containing 64x64pixel car images and the other containing non-car images. False positive images were also saved and used for training at later stages.
 
-Example of a car image:  ![Car](./train_images/vehicles/vehicles/GTI_MiddleClose/image0136.png )
+Example of a car image:  ![Car](image0216.png )
 
-Example of a tree (not a car) ![Tree](/train_images/non-vehicles/non-vehicles/Extras/extra174.png "Tree")
+Example of a tree (not a car) ![Tree](extra34.png "Tree")
 
-Example false positive ![Wall](./train_images/non-vehicles/non-vehicles/RE/out50.png)
+Example false positive ![Wall](out.png)
 
 Using the feature extraction parameters listed above, and using the `sklearn.model_selection train_test_split` function to shuffle and split the data into 80% training and 20% validation, the following accuracies were acheived in validation:
 
